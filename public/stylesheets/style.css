@@ -22,3 +22,11 @@ a {
 .navbar > ul > li{
   padding: 1em;
 }
+
+.editbutton{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  float: right;
+}
+
