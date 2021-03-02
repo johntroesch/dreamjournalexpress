@@ -1,0 +1,10 @@
+extends layout 
+
+block content 
+    ul 
+        each user in users 
+            li #{user.username}
+
+        else 
+            li There are no users
+                

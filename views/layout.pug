@@ -4,12 +4,24 @@ html
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
+    
+        
     img(src='/images/dream.png')
     div.navbar
       ul
-        li My Account
-        li Dreams
+        li 
+          a(href='/user/create') Create Account
+        li#idcard
+          if (user != null) 
+            p My Account 
+          else 
+            a(href='/user/login') Login
+        li
+          a(href='/dreams') Dreams
+        li 
+          a(href='/dreams/new') New Dream  
         li About
+          
     block content
 
     

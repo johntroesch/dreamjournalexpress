@@ -1,0 +1,10 @@
+extends layout 
+
+block content 
+    div
+        form(method="post").dreamform
+            label(for="title") Title:
+            input(name="title" type="text")
+            label(for="content") Content:
+            textarea(name="content" rows="25")
+            button(type="sumbit") Submit

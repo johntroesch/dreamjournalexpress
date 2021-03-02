@@ -1,0 +1,8 @@
+extends layout 
+
+block content 
+    each dream in dreams 
+        div.dreamsummary
+            a(href='/dreams/' + dream.id) #{dream.title}
+            p #{dream.content}
+        hr    

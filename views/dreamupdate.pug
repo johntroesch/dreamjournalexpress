@@ -1,0 +1,11 @@
+extends layout 
+
+block content
+    p for update
+
+    form.updateform(method='POST')
+        label(for='title') Title
+        input(name='title' type='text' value= dream.title)
+        label(for='content') Content 
+        textarea(name='content' rows='10') #{dream.content}
+        button(type='submit') Update

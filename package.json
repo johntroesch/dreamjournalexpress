@@ -16,13 +16,13 @@
     "pug": "2.0.0-beta11"
   },
   "devDependencies": {
-    "async": "^3.2.0",
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.2.0",
-    "express-validator": "^6.9.2",
+    "express-session": "^1.17.1",
     "mongodb": "^3.6.3",
     "mongoose": "^5.11.13",
     "nodemon": "^2.0.7",
+    "passport": "^0.4.1",
     "passport-local": "^1.0.0"
   }
 }

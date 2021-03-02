@@ -2,6 +2,9 @@ extends layout
 
 block content
     button.editbutton Edit
-    h1.dreamtitle Dream Detail - Title will go here
+    h1.dreamtitle #{dream.title}
+    p #{dream.content}
 
-    p Here will be a detailed description of the dream.  
+    div.linksdiv
+        a(href="/dreams/" + dream.id + "/update") Update
+        a(href="/dreams/" + dream.id + "/delete") Delete

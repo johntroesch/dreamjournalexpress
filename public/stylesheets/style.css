@@ -22,6 +22,9 @@ a {
 .navbar > ul > li{
   padding: 1em;
 }
+.navbar > ul > li > a{
+  padding: 1em;
+}
 
 .editbutton{
   padding-top: 5px;
@@ -30,3 +33,22 @@ a {
   float: right;
 }
 
+.dreamform{
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+}
+
+#loginbutton{
+  float: right;
+}
+
+.linksdiv > a{
+  padding-right: 5px;
+}
+
+.updateform{
+  display: flex;
+  flex-direction: column;
+  max-width: 25%;
+}
